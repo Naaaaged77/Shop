@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: #A27B5C;
+  font-family: 'Chivo Mono', monospace;
+}
+.navbar{
+  background-color: #D5CEA3 !important;
+}
+.textextra{
+  color: #126E82 !important;
+}
+.nav-item:hover ,.nav-link:hover ,.navbar-brand ,.navbar-brand:hover{
+  color: #126E82 !important;
+}
+.homemargin{
+  margin-top: 100px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+
+}
+.item{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.form{
+  background-color: #2A0944;
+  /* padding: 20px; */
+}
+.banner{
+  background-image: url(asset/76088.jpg);
+  background-position: 50% ;
+  background-size: cover;
+}
